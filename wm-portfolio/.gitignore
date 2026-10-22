@@ -1,0 +1,17 @@
+﻿# Dependencies
+node_modules/
+.npm/
+
+# Nested standalone project repos (separate GitHub repos)
+github-repos/
+
+# Backup and temporary files
+index.backup.html
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor folders
+.vscode/
+.idea/
