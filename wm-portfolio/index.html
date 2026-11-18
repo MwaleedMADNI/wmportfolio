@@ -5,23 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Waleed Madni — Senior Systems &amp; AI Engineer</title>
     <meta name="description" content="Senior Systems &amp; AI Engineer with 2+ years of production experience shipping full-stack web platforms, autonomous AI agents, computer vision forensics, and distributed backend systems.">
-    <link rel="canonical" href="https://waleed-editor.vercel.app/">
-
     <!-- Social OpenGraph Metadata -->
     <meta property="og:site_name" content="Waleed Systems">
     <meta property="og:title" content="Muhammad Waleed Madni — Senior Systems &amp; AI Engineer">
     <meta property="og:description" content="2+ years shipping production web platforms, autonomous AI agents, computer vision forensics, and streaming data systems.">
-    <meta property="og:url" content="https://waleed-editor.vercel.app/">
     <meta property="og:type" content="website">
 
     <!-- Fonts: Bricolage Grotesque, Inter, JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
 
     <!-- Obsidian & Base Styles -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/obsidian.css">
+    <link rel="stylesheet" href="css/v3.css">
 
     <!-- Three.js for Undulating Topography Canvas -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -483,7 +481,8 @@
       }
     </style>
 </head>
-<body class="ok-page" data-page-type="home">
+<body class="ok-page v3-home" data-page-type="home">
+<div class="v3-aurora" aria-hidden="true"><i></i><i></i><i></i></div>
 
 <!-- Three.js Undulating Topography Canvas Background -->
 <div id="canvas-container" aria-hidden="true" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 0; pointer-events: none; opacity: 0.65;"></div>
@@ -503,18 +502,13 @@
                     </svg>
                 </span>
                 <span class="brand-name">WALEED <span class="brand-dim">// SYSTEMS</span></span>
-                <span class="brand-status-tag" title="System Operational">
-                    <span class="status-ping-dot"></span>
-                    <span class="status-core-dot"></span>
-                    <span class="status-label">ONLINE</span>
-                </span>
             </div>
         </a>
         <div class="ok-nav-links" id="desktopNavLinks">
             <div class="nav-slider-line" id="navSliderLine" aria-hidden="true"></div>
             <a href="#hero" class="nav-item active" data-section="hero">Home</a>
             <a href="#capabilities" class="nav-item" data-section="capabilities">Capabilities</a>
-            <a href="#projects" class="nav-item" data-section="projects">Systems (9)</a>
+            <a href="#projects" class="nav-item" data-section="projects">Systems (8)</a>
             <a href="#methodology" class="nav-item" data-section="methodology">Methodology</a>
         </div>
         <div class="ok-nav-right">
@@ -528,121 +522,97 @@
     <div class="ok-mobile-nav" id="mainNav">
         <a href="#hero" class="active">Home</a>
         <a href="#capabilities">Capabilities</a>
-        <a href="#projects">Selected Systems (9)</a>
+        <a href="#projects">Selected Systems (8)</a>
         <a href="#methodology">Methodology</a>
     </div>
 </nav>
 </header>
 
-<!-- HERO: 2-COLUMN SPLIT LAYOUT WITH 6-STAGE PRODUCT CONTINUITY STORYBOARD -->
-<section class="ok-section ok-hero-section ok-hero-split-section" id="hero">
-  <div class="ok-container">
-    <div class="ok-hero-grid">
-      <!-- Left Column: Copy, Typewriter Headline, CTAs & Proof Bar -->
-      <div class="ok-hero-copy">
-        <div class="ok-ticker ok-reveal in" style="margin-bottom: 22px;">
-          <span class="dot"></span>
-          <span class="ok-eyebrow" style="margin: 0;">SENIOR SYSTEMS &amp; AI ENGINEER // 2+ YEARS PRODUCTION EXPERIENCE</span>
-        </div>
-        <h1 class="ok-display ok-glow-text hero-headline">
-          Engineering digital systems with<br>
-          <span class="ok-typewriter-wrap">
-            <span class="ok-gradient-text" id="heroTypewriter" data-phrases='["sub-second AI latency","autonomous agents","enterprise precision","zero-downtime scale"]'>sub-second AI latency</span>
-            <span class="ok-typewriter-cursor" aria-hidden="true">|</span>
-          </span><br>
-          on the line.
-        </h1>
-        <p class="ok-body ok-hero-lead">
-          2+ years shipping production web platforms, autonomous AI agents, computer vision media forensics, and high-throughput data systems. Featured on the dashboard to the right: <strong>IFDL (Image &amp; Video Forgery Detection Lab)</strong> &mdash; crowning final-year research thesis featuring dual-stream spatial ResNet-50 + FFT spectral deepfake forensics, complete UML architecture diagrams, and Google Drive FYP artifacts.
-        </p>
-        <div class="ok-hero-actions" style="flex-wrap: wrap; gap: 16px; margin-top: 24px;">
-          <a class="ok-btn ok-btn-primary" href="#projects">
-            Explore All 9 Systems <span class="btn-arrow">&rarr;</span>
-          </a>
-          <a class="ok-btn ok-btn-secondary" href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener" style="background: rgba(124,58,237,0.18); border-color: rgba(210,187,255,0.4); color: #fff;">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
-            Google Drive FYP Folder &nearr;
-          </a>
-          <a class="ok-btn ok-btn-secondary" href="https://github.com/MwaleedMADNI" target="_blank" rel="noopener">&tau; GitHub Profile &nearr;</a>
-          
-        </div>
-        <div class="ok-hero-proof-bar" aria-label="Key engineering metrics">
-          <div class="ok-hero-proof-item">
-            <span class="ok-hero-proof-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#6ee7b7" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+<!-- 1. HERO: BUZZINTECH V3 CENTERED KINETIC ARCHITECTURE -->
+<section class="v3-hero" id="hero">
+  <div class="v3-gridlines" aria-hidden="true"></div>
+  <div class="v3-wrap">
+    <span class="v3-tag ok-reveal in">
+      <b></b>Data and web system Analyst &middot; 2+ year experience
+    </span>
+    
+    <h1 class="v3-h1" aria-label="I build software, AI agents, custom CRMs and growth engines, built to perform.">
+      <span class="v3-line"><span>I build</span></span>
+      <span class="v3-line">
+        <span class="v3-roll" id="v3Roll">
+          <em class="on">production web apps</em>
+          <em>autonomous AI agents</em>
+          <em>custom CRMs</em>
+          <em>media forensics</em>
+          <em>growth engines</em>
+        </span>
+      </span>
+      <span class="v3-line"><span>built to <i class="v3-serif v3-grad">perform.</i></span></span>
+    </h1>
+
+    <p class="v3-lede ok-reveal in">
+      Full-stack web systems, autonomous AI agents, and computer vision forensics engineered with sub-second execution.
+    </p>
+
+    <div class="v3-cta-row ok-reveal in">
+      <a class="ok-btn ok-btn-primary v3-lg" href="#projects">
+        Explore All 8 Systems <span class="btn-arrow">&rarr;</span>
+      </a>
+      <a class="v3-ghost" href="#ifdl-showcase">
+        Interactive Thesis Lab <span>&darr;</span>
+      </a>
+      <a class="v3-ghost" href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener">
+        Google Drive FYP Folder <span>&nearr;</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 2. FULL-WIDTH SHOWCASE STAGE: IFDL FORENSIC ENGINE -->
+  <div class="v3-stage-pin ok-reveal in" id="ifdl-showcase" aria-label="IFDL Forensic Engine Interactive Dashboard">
+    <div class="v3-stage" id="v3Stage">
+      <div class="v3-halo"></div>
+      <div class="v3-browser">
+        <!-- Browser Chrome Bar -->
+        <div class="v3-bar">
+          <div class="v3-dots"><i></i><i></i><i></i></div>
+          <div class="v3-url">ifdl-forensics.internal // research-thesis-benchmark</div>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <a href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener" class="ok-tag" style="text-decoration: none; padding: 4px 12px; font-size: 11px; background: rgba(124,58,237,0.25); border-color: rgba(210,187,255,0.4); color: #fff; cursor: pointer;">
+              Drive FYP Folder &nearr;
+            </a>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7; font-weight: 700;">
+              95.4% Precision
             </span>
-            <div>
-              <strong>95.4% Precision</strong>
-              <span>IFDL Dual-Stream Forensics</span>
-            </div>
-          </div>
-          <div class="ok-hero-proof-item">
-            <span class="ok-hero-proof-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </span>
-            <div>
-              <strong>&lt;84ms Inference</strong>
-              <span>Spatial CNN + FFT GPU</span>
-            </div>
-          </div>
-          <div class="ok-hero-proof-item">
-            <span class="ok-hero-proof-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-            </span>
-            <div>
-              <strong>9+ Systems Live</strong>
-              <span>Vercel Edge &amp; GitHub Verified</span>
-            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Right Column: Dedicated Animated IFDL Front Dashboard (BuzzinTech Style Vector Flowcharts) -->
-      <div class="ok-hero-visual ok-reveal in" style="position: relative;">
-        <div class="ok-storyboard ok-sb-shell" id="heroStoryboard" aria-label="IFDL Final Year Project Interactive Dashboard" style="padding: 16px;">
-          
-          <!-- Dashboard Top Header Bar -->
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.08);">
-            <div style="display: flex; align-items: center; gap: 8px;">
-              <span class="ok-sb-pulse" style="width: 8px; height: 8px; background: #6ee7b7; box-shadow: 0 0 10px #6ee7b7;"></span>
-              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #fff; letter-spacing: 0.08em; text-transform: uppercase;">
-                IFDL FORENSIC ENGINE // FINAL YEAR THESIS
-              </span>
+        <div class="v3-stage-body">
+          <div class="ok-storyboard ok-sb-shell" id="heroStoryboard" style="padding: 4px; background: transparent; border: none; box-shadow: none;">
+            
+            <!-- Stage Selector Tabs (6 Fully Aligned Tabs) -->
+            <div class="ok-sb-tabs" role="tablist" aria-label="IFDL Architecture Stages" style="margin-bottom: 16px;">
+              <button class="ok-sb-tab active" data-stage="0" role="tab" aria-selected="true" aria-controls="scene-0">
+                <span class="num">01</span><span>DFD Flow</span>
+              </button>
+              <button class="ok-sb-tab" data-stage="1" role="tab" aria-selected="false" aria-controls="scene-1">
+                <span class="num">02</span><span>Sequence</span>
+              </button>
+              <button class="ok-sb-tab" data-stage="2" role="tab" aria-selected="false" aria-controls="scene-2">
+                <span class="num">03</span><span>Activity</span>
+              </button>
+              <button class="ok-sb-tab" data-stage="3" role="tab" aria-selected="false" aria-controls="scene-3">
+                <span class="num">04</span><span>Dual-CNN</span>
+              </button>
+              <button class="ok-sb-tab" data-stage="4" role="tab" aria-selected="false" aria-controls="scene-4">
+                <span class="num">05</span><span>Heatmap</span>
+              </button>
+              <button class="ok-sb-tab" data-stage="5" role="tab" aria-selected="false" aria-controls="scene-5" style="border-color: rgba(210,187,255,0.4);">
+                <span class="num" style="color: #6ee7b7;">06</span><span style="color: #6ee7b7;">FYP Drive</span>
+              </button>
             </div>
-            <div style="display: flex; align-items: center; gap: 8px;">
-              <a href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener" class="ok-tag" style="text-decoration: none; padding: 3px 10px; font-size: 10px; background: rgba(124,58,237,0.25); border-color: rgba(210,187,255,0.4); color: #fff; cursor: pointer;">
-                Drive FYP Folder &nearr;
-              </a>
-              <span class="ok-tag" style="padding: 3px 10px; font-size: 10px; background: rgba(16,185,129,0.15); border-color: #10b981; color: #6ee7b7;">
-                95.4% Precision
-              </span>
-            </div>
-          </div>
 
-          <!-- Stage Selector Tabs (6 Fully Aligned Tabs) -->
-          <div class="ok-sb-tabs" role="tablist" aria-label="IFDL Architecture Stages" style="margin-bottom: 12px;">
-            <button class="ok-sb-tab active" data-stage="0" role="tab" aria-selected="true" aria-controls="scene-0">
-              <span class="num">01</span><span>DFD Flow</span>
-            </button>
-            <button class="ok-sb-tab" data-stage="1" role="tab" aria-selected="false" aria-controls="scene-1">
-              <span class="num">02</span><span>Sequence</span>
-            </button>
-            <button class="ok-sb-tab" data-stage="2" role="tab" aria-selected="false" aria-controls="scene-2">
-              <span class="num">03</span><span>Activity</span>
-            </button>
-            <button class="ok-sb-tab" data-stage="3" role="tab" aria-selected="false" aria-controls="scene-3">
-              <span class="num">04</span><span>Dual-CNN</span>
-            </button>
-            <button class="ok-sb-tab" data-stage="4" role="tab" aria-selected="false" aria-controls="scene-4">
-              <span class="num">05</span><span>Heatmap</span>
-            </button>
-            <button class="ok-sb-tab" data-stage="5" role="tab" aria-selected="false" aria-controls="scene-5" style="border-color: rgba(210,187,255,0.4);">
-              <span class="num" style="color: #6ee7b7;">06</span><span style="color: #6ee7b7;">FYP Drive</span>
-            </button>
-          </div>
-
-          <!-- Dedicated Viewport: 100% Vector Animated SVGs with Fixed Height -->
-          <div class="ok-sb-stage-wrap" style="position: relative; height: 380px; overflow: hidden; background: #06030d; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08);">
+            <!-- Dedicated Viewport: 100% Vector Animated SVGs with Full Width -->
+            <div class="ok-sb-stage-wrap" style="position: relative; height: 340px; overflow: hidden; background: radial-gradient(ellipse at 50% 20%, rgba(124, 58, 237, 0.18) 0%, rgba(22, 14, 44, 0.88) 50%, rgba(9, 6, 18, 0.98) 100%); border-radius: 14px; border: 1px solid rgba(168, 85, 247, 0.28); box-shadow: inset 0 2px 14px rgba(0, 0, 0, 0.6), inset 0 0 50px rgba(139, 92, 246, 0.12);">
 
             <!-- ==========================================
                  STAGE 01: ANIMATED DFD LEVEL 1 FLOWCHART
@@ -1125,7 +1095,7 @@
             <!-- ==========================================
                  STAGE 06: GOOGLE DRIVE FYP ACCESS HUB
                  ========================================== -->
-            <div class="ok-sb-scene" id="scene-5" data-scene="5" role="tabpanel" style="position: absolute; inset: 0; width: 100%; height: 100%; padding: 22px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="ok-sb-scene" id="scene-5" data-scene="5" role="tabpanel" style="position: absolute; inset: 0; width: 100%; height: 100%; padding: 14px 20px; display: flex; flex-direction: column; justify-content: space-between;">
               <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
                 <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7; font-weight: 700; letter-spacing: 0.08em;">
                   GOOGLE DRIVE REPOSITORY &bull; FINAL YEAR PROJECT ARTIFACTS
@@ -1137,21 +1107,21 @@
 
               <!-- Center BuzzinTech Fan-out Cards Layout -->
               <div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 6px 10px;">
-                <h4 style="font-size: 22px; color: #fff; margin-bottom: 8px; font-weight: 700;">
+                <h4 style="font-size: 18px; color: #fff; margin-bottom: 6px; font-weight: 700;">
                   Complete Master's Thesis Documentation &amp; Artifacts
                 </h4>
-                <p style="font-size: 13.5px; color: var(--ok-text-secondary); max-width: 540px; line-height: 1.55; margin-bottom: 20px;">
+                <p style="font-size: 12.5px; color: var(--ok-text-secondary); max-width: 500px; line-height: 1.45; margin-bottom: 12px;">
                   All original system architecture diagrams, sequence message traces, activity logic models, evaluation benchmarks, and PyTorch codebase files stored in the verified Google Drive repository.
                 </p>
 
                 <!-- Primary Action Button -->
-                <a href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener" class="ok-btn ok-btn-primary" style="font-size: 14px; padding: 14px 32px; background: linear-gradient(135deg, #7c3aed, #2563eb); border: none; box-shadow: 0 0 35px rgba(124,58,237,0.5); margin-bottom: 16px;">
+                <a href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener" class="ok-btn ok-btn-primary" style="font-size: 13px; padding: 10px 24px; background: linear-gradient(135deg, #7c3aed, #2563eb); border: none; box-shadow: 0 0 30px rgba(124,58,237,0.5); margin-bottom: 10px;">
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
                   Open Google Drive FYP Folder (Diagrams, Docs, Weights) &nearr;
                 </a>
 
                 <!-- Flanking Direct Actions -->
-                <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
                   <a href="https://github.com/MwaleedMADNI/IFDL-deepfake-detection" target="_blank" rel="noopener" class="ok-btn ok-btn-secondary" style="font-size: 12px; padding: 9px 18px;">
                     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
                     GitHub PyTorch Codebase &nearr;
@@ -1174,14 +1144,15 @@
 
           </div>
 
-          <!-- Bottom Telemetry Bar -->
-          <div class="ok-sb-footer" style="margin-top: 10px;">
-            <div class="ok-sb-status">
-              <span class="ok-sb-pulse"></span>
-              <span class="ok-sb-stage-label" id="sbStageLabel">01 / DFD LEVEL 1 — Client Upload &bull; Base64 Encode &bull; API Gateway &bull; Server Preprocessing</span>
-            </div>
-            <div class="ok-sb-progress-track" aria-hidden="true">
-              <div class="ok-sb-progress-fill" id="sbProgressBar"></div>
+            <!-- Bottom Telemetry Bar -->
+            <div class="ok-sb-footer" style="margin-top: 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+              <div class="ok-sb-status">
+                <span class="ok-sb-pulse"></span>
+                <span class="ok-sb-stage-label" id="sbStageLabel">01 / DFD LEVEL 1 — Client Upload &bull; Base64 Encode &bull; API Gateway &bull; Server Preprocessing</span>
+              </div>
+              <div class="ok-sb-progress-track" aria-hidden="true" style="width: 160px;">
+                <div class="ok-sb-progress-fill" id="sbProgressBar"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -1203,8 +1174,8 @@
       <h2 style="font-size: clamp(32px, 4vw, 48px); margin: 16px 0 20px; line-height: 1.15;">
         Full-spectrum systems from micro-frontend interfaces to deep learning inference engines.
       </h2>
-      <p style="font-size: 17px; color: var(--ok-text-secondary); line-height: 1.65;">
-        Architected for sub-second execution, enterprise reliability, and scalable digital throughput. Every capability is validated by production-grade deployments and research benchmarks.
+      <p style="font-size: 16px; color: var(--ok-text-secondary); line-height: 1.5; max-width: 680px; margin: 0 auto;">
+        Architected for sub-second execution, enterprise reliability, and scalable digital throughput.
       </p>
     </div>
 
@@ -1220,7 +1191,7 @@
           </div>
           <h3 style="font-size: 30px; margin-bottom: 14px;">High-Performance Full-Stack Web Systems</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.7; font-size: 15px; margin-bottom: 24px;">
-            Modern reactive interfaces engineered with Next.js 14 App Router, React 19, TypeScript, and Tailwind CSS, backed by robust Node.js, Express, and FastAPI microservices. Optimized for sub-second TTFB, 99+ Core Web Vitals, serverless edge compute, and resilient REST/GraphQL data layers.
+            Next.js 14 and React 19 interfaces backed by FastAPI microservices, tuned for &lt;120ms edge latency.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Next.js 14</span>
@@ -1250,7 +1221,7 @@
           </div>
           <h3 style="font-size: 24px; margin-bottom: 12px;">Computer Vision &amp; Deep Learning (IFDL)</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.65; font-size: 14px; margin-bottom: 20px;">
-            Primary academic and engineering research detecting synthetic deepfakes and manipulated digital media. Custom PyTorch/TensorFlow CNN architectures (ResNet-50, EfficientNet), frequency-domain Fourier transform analysis, and real-time GPU inference pipelines.
+            Thesis research in media forensics using PyTorch CNNs and Fourier analysis for real-time deepfake detection.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
             <span class="ok-mono-badge">PyTorch</span>
@@ -1277,7 +1248,7 @@
           </div>
           <h3 style="font-size: 24px; margin-bottom: 12px;">Autonomous Agents &amp; LLM Toolchains</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.65; font-size: 14px; margin-bottom: 20px;">
-            Production autonomous agents built with LangChain, LangGraph, and multi-agent coordination frameworks. Features function calling, dynamic tool use, iterative validation loops, persistent memory graphs, and goal-oriented task decomposition.
+            LangGraph multi-agent workflows with tool-calling execution and persistent state memory graphs.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
             <span class="ok-mono-badge">LangChain</span>
@@ -1304,7 +1275,7 @@
           </div>
           <h3 style="font-size: 30px; margin-bottom: 14px;">Streaming Data Science &amp; Predictive Hubs</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.7; font-size: 15px; margin-bottom: 24px;">
-            High-throughput data engineering pipelines and statistical modeling systems built in Python with Pandas, NumPy, Scikit-learn, and FastAPI. Interactive forecasting dashboards, multi-variate regression analysis, automated ETL pipelines, and streaming analytics for mission-critical decisions.
+            High-throughput Python pipelines and statistical modeling with automated ETL and predictive analytics.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Python 3.12</span>
@@ -1334,7 +1305,7 @@
           </div>
           <h3 style="font-size: 24px; margin-bottom: 12px;">Enterprise RAG &amp; Vector Embeddings</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.65; font-size: 14px; margin-bottom: 20px;">
-            Production knowledge retrieval systems backed by ChromaDB and Pinecone vector databases. Hybrid BM25 keyword + dense semantic embeddings, contextual reranking, and zero-hallucination source citation verification.
+            Semantic retrieval systems with ChromaDB and Pinecone, featuring hybrid vector search and grounded citations.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
             <span class="ok-mono-badge">ChromaDB</span>
@@ -1361,7 +1332,7 @@
           </div>
           <h3 style="font-size: 30px; margin-bottom: 14px;">Cloud Infrastructure &amp; Production SQA Automation</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.7; font-size: 15px; margin-bottom: 24px;">
-            Containerized cloud deployments with Docker, GitHub Actions CI/CD workflows, and Vercel Edge networks. End-to-end automated testing suites with Playwright, Jest, and PyTest ensuring zero regressions across all system tiers, load stress scenarios, and automated rollbacks.
+            Containerized cloud deployments with Docker, GitHub Actions CI/CD workflows, and Playwright test suites.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Docker</span>
@@ -1395,8 +1366,8 @@
       <h2 style="font-size: clamp(32px, 4vw, 48px); margin: 16px 0 20px; line-height: 1.15;">
         Three clear paths to ship production software.
       </h2>
-      <p style="font-size: 17px; color: var(--ok-text-secondary); line-height: 1.65;">
-        Whether you need an autonomous engineer to build an entire product from scratch, an ML specialist to integrate deep intelligence, or a dedicated senior engineering partner.
+      <p style="font-size: 16px; color: var(--ok-text-secondary); line-height: 1.5; max-width: 620px; margin: 0 auto;">
+        Predictable engineering engagements tailored for startups and scaling platforms.
       </p>
     </div>
 
@@ -1409,15 +1380,13 @@
             <span class="ok-partner-cadence">4–8 WEEKS &middot; FIXED SCOPE</span>
           </div>
           <h3>Full-Stack &amp; AI Product Build</h3>
-          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 0;">
-            Complete from-scratch engineering of your digital platform or AI application. From systems architecture and database design to modern UI and cloud edge deployment.
+          <p style="color: var(--ok-text-secondary); line-height: 1.45; font-size: 13px; margin-bottom: 0;">
+            Turnkey web platform or AI application engineering from architecture to production deployment.
           </p>
           <ul class="ok-partner-list">
-            <li>End-to-end frontend &amp; backend architecture</li>
-            <li>Custom AI agent &amp; LLM toolchain integration</li>
-            <li>Vercel / AWS cloud deployment &amp; CI/CD pipeline</li>
-            <li>100% full source code ownership &amp; clean repository</li>
-            <li>30-day post-launch warranty &amp; uptime monitoring</li>
+            <li>Full-Stack Web &amp; AI Architecture</li>
+            <li>Cloud Deployment &amp; CI/CD Pipelines</li>
+            <li>100% Full Source Code Ownership</li>
           </ul>
         </div>
         <div>
@@ -1435,15 +1404,13 @@
             <span class="ok-partner-cadence">2–6 WEEKS &middot; SPECIALIZED SPRINT</span>
           </div>
           <h3>Data Science &amp; ML Engineering Contract</h3>
-          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 0;">
-            Specialized algorithmic and intelligence integration for existing engineering teams. Embedding computer vision, deepfake forensics, custom predictive models, or RAG assistants into your stack.
+          <p style="color: var(--ok-text-secondary); line-height: 1.45; font-size: 13px; margin-bottom: 0;">
+            Specialized intelligence integration—embedding computer vision, ML models, and RAG pipelines.
           </p>
           <ul class="ok-partner-list">
-            <li>Custom PyTorch / Scikit-learn model development</li>
-            <li>IFDL visual forensics or synthetic data pipelines</li>
-            <li>FastAPI high-throughput inference microservices</li>
-            <li>Vector database setup (ChromaDB / Pinecone)</li>
-            <li>Inference benchmarking &amp; latency optimization</li>
+            <li>Custom PyTorch &amp; Scikit-Learn Models</li>
+            <li>High-Throughput FastAPI Inference APIs</li>
+            <li>Vector Databases &amp; Knowledge Retrieval</li>
           </ul>
         </div>
         <div>
@@ -1461,15 +1428,13 @@
             <span class="ok-partner-cadence">MONTHLY &middot; 10–20 HRS / WK</span>
           </div>
           <h3>Senior Lead &amp; Systems Retainer</h3>
-          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 0;">
-            Dedicated technical bandwidth and leadership for startups and scaling ventures needing ongoing feature velocity, architecture reviews, and continuous AI pipeline upkeep.
+          <p style="color: var(--ok-text-secondary); line-height: 1.45; font-size: 13px; margin-bottom: 0;">
+            Dedicated senior bandwidth for ongoing feature velocity, architecture reviews, and AI maintenance.
           </p>
           <ul class="ok-partner-list">
-            <li>Continuous feature development &amp; code reviews</li>
-            <li>Architecture governance &amp; AI pipeline upkeep</li>
-            <li>Priority pull requests &amp; sprint velocity</li>
-            <li>Direct Slack / Discord / WhatsApp communication</li>
-            <li>Weekly strategic syncs &amp; performance audits</li>
+            <li>Continuous Feature Velocity &amp; Code Reviews</li>
+            <li>System Architecture &amp; Pipeline Governance</li>
+            <li>Priority Sprint Delivery &amp; Direct Access</li>
           </ul>
         </div>
         <div>
@@ -1490,106 +1455,114 @@
     <div class="ok-reveal" style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 760px; margin: 0 auto 48px;">
       <div class="ok-eyebrow">
         <span class="ok-eyebrow-dot"></span>
-        FEATURED WORK &middot; 9 PRODUCTION SYSTEMS
+        FEATURED WORK &middot; 8 PRODUCTION SYSTEMS
       </div>
       <h2 style="font-size: clamp(32px, 4vw, 48px); margin: 16px 0 20px; line-height: 1.15;">
         Engineered with sub-second latency, rigorous testing, and live deployment.
       </h2>
-      <p style="font-size: 17px; color: var(--ok-text-secondary); line-height: 1.65; margin-bottom: 32px;">
-        Every system below features clean architectural separation, verified GitHub repository source code, and active live production instances.
+      <p style="font-size: 16px; color: var(--ok-text-secondary); line-height: 1.5; margin-bottom: 28px; max-width: 640px; margin-inline: auto;">
+        Production systems with clean architecture, verified source code, and live deployments.
       </p>
 
       <!-- Category Filter Pills -->
       <div class="ok-filter-bar" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
         <button type="button" class="ok-filter-btn active" data-filter="all" onclick="filterProjects('all', this)">
-          All Systems (9)
+          All Systems (8)
         </button>
         <button type="button" class="ok-filter-btn" data-filter="ai" onclick="filterProjects('ai', this)">
           AI Agents &amp; Vision (4)
         </button>
         <button type="button" class="ok-filter-btn" data-filter="web" onclick="filterProjects('web', this)">
-          Web &amp; Distributed (3)
+          Web &amp; Distributed (4)
         </button>
         <button type="button" class="ok-filter-btn" data-filter="data" onclick="filterProjects('data', this)">
-          Data &amp; Tools (2)
+          Data &amp; Diagnostics (4)
         </button>
       </div>
     </div>
 
     <!-- Projects Grid -->
+    <!-- Projects Grid -->
     <div class="ok-work-grid" id="projectsGrid">
 
-      <!-- PROJECT 1: IFDL (FEATURED FULL WIDTH) -->
-      <div class="ok-card ok-work-item full ok-reveal" data-category="ai vision" style="padding: 32px; background: linear-gradient(160deg, rgba(124,58,237,0.14), rgba(12,8,22,0.92)); border-color: rgba(210,187,255,0.4);">
-        <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 36px; align-items: center;">
-          <div>
-            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
-              <span class="ok-tag" style="background: rgba(124,58,237,0.3); color: #fff; border-color: var(--ok-primary-light);">THESIS RESEARCH &middot; 95.4% PRECISION</span>
-              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">&check; VERIFIED BENCHMARK</span>
-            </div>
-            <h3 class="ok-work-title" style="font-size: 32px; margin-bottom: 12px; color: #ffffff;">
-              IFDL &mdash; Image &amp; Video Forgery Detection Lab
-            </h3>
-            <div class="ok-work-meta" style="margin-bottom: 18px; color: var(--ok-primary-light);">
-              COMPUTER VISION &middot; PYTORCH &middot; RESNET-50 &middot; FFT SPECTRAL &middot; FASTAPI
-            </div>
-            <p style="color: var(--ok-text-secondary); line-height: 1.7; font-size: 15px; margin-bottom: 24px;">
-              Primary thesis research engineered to expose synthetic deepfakes, face-swap manipulations, and generative diffusion artifacts. Employs a dual-stream CNN combining spatial pixel analysis with frequency-domain Fast Fourier Transform (FFT) analysis to uncover upsampling anomalies missed by conventional classifiers.
-            </p>
-            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px;">
-              <span class="ok-mono-badge">PyTorch</span>
-              <span class="ok-mono-badge">TensorFlow</span>
-              <span class="ok-mono-badge">OpenCV</span>
-              <span class="ok-mono-badge">ResNet-50</span>
-              <span class="ok-mono-badge">FFT Frequency</span>
-              <span class="ok-mono-badge">FastAPI</span>
-              <span class="ok-mono-badge">Docker GPU</span>
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-              <button type="button" class="ok-btn ok-btn-primary" onclick="openIfdlModal()">
-                Inspect Thesis &amp; Screenshots &rarr;
-              </button>
-              <a href="https://drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="background: rgba(124,58,237,0.22); border-color: rgba(210,187,255,0.45); color: #fff;">
-                <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
-                Google Drive FYP Folder &nearr;
-              </a>
-              <a href="https://github.com/MwaleedMADNI/IFDL-deepfake-detection" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary">
-                <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-                GitHub Repository
-              </a>
-            </div>
+      <!-- PROJECT 1: DCC CRM (ENTERPRISE PIPELINE) -->
+      <div class="ok-card ok-work-item ok-reveal" data-category="web data" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="ok-work-image">
+            <img src="assets/dcc-crm.png" alt="DCC CRM — Enterprise Real Estate Pipeline" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
-          <!-- Thumbnail Graphic / Screenshot Preview -->
-          <div style="position: relative; border-radius: var(--ok-radius-lg); overflow: hidden; border: 1px solid rgba(210,187,255,0.3); background: #000; box-shadow: 0 12px 40px rgba(0,0,0,0.6);">
-            <img src="assets/ifdl-home.png" alt="IFDL Deepfake Detection Lab" style="width: 100%; height: auto; display: block; object-fit: cover; opacity: 0.95; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
-            <div style="position: absolute; bottom: 12px; right: 12px; background: rgba(12,8,22,0.85); backdrop-filter: blur(8px); padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.15); font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">
-              &bull; Live Model Telemetry Active
-            </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+            <span class="ok-work-meta">ENTERPRISE CRM &middot; LARAVEL &middot; MYSQL</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>Live Enterprise</span>
           </div>
+          <h3 class="ok-work-title" style="color: #ffffff;">DCC CRM &mdash; Enterprise Real Estate Pipeline</h3>
+          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
+            Enterprise property development and pipeline CRM with role-based auth, client lead tracking, and deal analytics.
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
+            <span class="ok-mono-badge">Laravel</span>
+            <span class="ok-mono-badge">PHP 8.2</span>
+            <span class="ok-mono-badge">MySQL</span>
+            <span class="ok-mono-badge">Tailwind CSS</span>
+            <span class="ok-mono-badge">Nginx</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
+          <a href="https://crm.dccdevelopers.com/login" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
+          </a>
+          <span class="ok-btn ok-btn-secondary" style="font-size: 12.5px; opacity: 0.7; cursor: default;">
+            Client Enterprise
+          </span>
         </div>
       </div>
 
-      <!-- PROJECT 2: SCHENGEN DESK -->
-      <div class="ok-card ok-work-item ok-reveal" data-category="web ai" style="display: flex; flex-direction: column; justify-content: space-between;">
+      <!-- PROJECT 2: IFDL DEEPFAKE FORENSICS LAB -->
+      <div class="ok-card ok-work-item ok-reveal" data-category="ai vision" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(124,58,237,0.3), #0d0914); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">GLOBAL TRAVEL INTELLIGENCE</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                Schengen Desk
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                schengen-desk.vercel.app &bull; Live &check;
-              </div>
-            </div>
+          <div class="ok-work-image">
+            <img src="assets/ifdl-home.png" alt="IFDL — Deepfake Detection Lab" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+            <span class="ok-work-meta">COMPUTER VISION &middot; PYTORCH &middot; RESNET-50</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>95.4% Precision</span>
+          </div>
+          <h3 class="ok-work-title" style="color: #ffffff;">IFDL &mdash; Image &amp; Video Forgery Detection Lab</h3>
+          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
+            Dual-stream CNN combining spatial analysis with FFT spectral transforms to expose synthetic deepfakes and manipulation anomalies.
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
+            <span class="ok-mono-badge">PyTorch</span>
+            <span class="ok-mono-badge">OpenCV</span>
+            <span class="ok-mono-badge">ResNet-50</span>
+            <span class="ok-mono-badge">FastAPI</span>
+            <span class="ok-mono-badge">Docker GPU</span>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
+          <button type="button" class="ok-btn ok-btn-primary" onclick="openIfdlModal()" style="flex: 1; justify-content: center; font-size: 12.5px;">
+            <span>Inspect Thesis</span> <span class="btn-arrow">&rarr;</span>
+          </button>
+          <a href="https://github.com/MwaleedMADNI/IFDL-deepfake-detection" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: SCHENGEN DESK -->
+      <div class="ok-card ok-work-item ok-reveal" data-category="web" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="ok-work-image">
+            <img src="assets/schengen-desk.png" alt="Schengen Desk — Visa & Travel Intelligence" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
             <span class="ok-work-meta">FULL-STACK WEB &middot; NEXT.JS 14</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">99+ Vitals</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>99+ Vitals</span>
           </div>
           <h3 class="ok-work-title" style="color: #ffffff;">Schengen Desk &mdash; Visa &amp; Travel Intelligence</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Production web platform engineered for real-time European Schengen visa calculations, requirements analysis, multi-country stay tracking, and interactive policy guidelines with edge SSR speed.
+            Real-time visa calculation platform with requirements analysis, stay tracking, and interactive policy guidelines.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Next.js 14</span>
@@ -1601,35 +1574,28 @@
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
           <a href="https://schengen-desk.vercel.app/" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
           <a href="https://github.com/MwaleedMADNI/schengen-desk" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
       </div>
 
-      <!-- PROJECT 3: AI CONTENT GENERATOR -->
+      <!-- PROJECT 4: AI CONTENT GENERATOR -->
       <div class="ok-card ok-work-item ok-reveal" data-category="ai web" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(59,130,246,0.3), #0a0e1a); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">MULTI-LLM STUDIO</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                AI Content Generator
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                ai-content-generator.vercel.app &bull; Live &check;
-              </div>
-            </div>
+          <div class="ok-work-image">
+            <img src="assets/ai-content-generator.png" alt="AI Content Generator — Multi-Model Studio" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
             <span class="ok-work-meta">GENERATIVE AI &middot; STREAMING API</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">Sub-Second Stream</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>Sub-Second Stream</span>
           </div>
           <h3 class="ok-work-title" style="color: #ffffff;">AI Content Generator &mdash; Multi-Model Studio</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Full-stack generative AI content workstation integrating OpenAI GPT-4 and Anthropic Claude APIs. Features dynamic prompt engineering, tone adjustment, markdown export, and SSE streaming token responses.
+            Multi-modal AI studio integrating GPT-4 and Claude with dynamic prompt templates and real-time SSE streaming.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
             <span class="ok-mono-badge">React</span>
@@ -1641,49 +1607,10 @@
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
           <a href="https://ai-content-generator-khaki-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
           <a href="https://github.com/MwaleedMADNI/ai-content-generator" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
-            GitHub
-          </a>
-        </div>
-      </div>
-
-      <!-- PROJECT 4: WALEED CODE EDITOR -->
-      <div class="ok-card ok-work-item ok-reveal" data-category="data web" style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(16,185,129,0.25), #06120e); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">BROWSER CLOUD IDE</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                Waleed Code Editor
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                waleed-editor.vercel.app &bull; Live &check;
-              </div>
-            </div>
-          </div>
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-            <span class="ok-work-meta">DEVELOPER TOOLING &middot; MONACO</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">Zero-Sandbox Lag</span>
-          </div>
-          <h3 class="ok-work-title" style="color: #ffffff;">Cloud Code Editor &amp; Live Sandbox</h3>
-          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            In-browser cloud code IDE powered by Microsoft Monaco Editor. Features real-time syntax linting, HTML/CSS/JS execution engine, responsive split preview, and instantaneous client-side evaluation.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
-            <span class="ok-mono-badge">Monaco Editor</span>
-            <span class="ok-mono-badge">JavaScript</span>
-            <span class="ok-mono-badge">Web Workers</span>
-            <span class="ok-mono-badge">Sandboxing</span>
-            <span class="ok-mono-badge">Vercel</span>
-          </div>
-        </div>
-        <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
-          <a href="https://waleed-editor.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
-          </a>
-          <a href="https://github.com/MwaleedMADNI/waleed-code-editor" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
@@ -1692,24 +1619,24 @@
       <!-- PROJECT 5: AURA MARKET -->
       <div class="ok-card ok-work-item ok-reveal" data-category="web" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(245,158,11,0.25), #1a1208); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">FINTECH &amp; COMMERCE</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
+          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(245,158,11,0.2), #0d0a06); display: flex; align-items: center; justify-content: center; text-align: center;">
+            <div>
+              <span class="ok-tag" style="background: rgba(245,158,11,0.2); color: #fbbf24; border-color: rgba(245,158,11,0.4); margin-bottom: 8px; font-size: 10px;">FINTECH &amp; COMMERCE</span>
+              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700; color: #fff; letter-spacing: -0.02em;">
                 Aura Market
               </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                aura-market.vercel.app &bull; Live &check;
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #71717a; margin-top: 4px;">
+                // STRIPE &bull; PRISMA &bull; REDIS
               </div>
             </div>
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
             <span class="ok-work-meta">E-COMMERCE &middot; STRIPE &middot; POSTGRES</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">PCI Compliant</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>PCI Compliant</span>
           </div>
           <h3 class="ok-work-title" style="color: #ffffff;">Aura Market &mdash; Headless E-Commerce System</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            High-performance headless e-commerce store with Stripe payment processing, PostgreSQL database with Prisma ORM, Redis session cart persistence, and instant catalog search filtering.
+            Headless e-commerce store with Stripe checkout, PostgreSQL Prisma ORM, and Redis session cart persistence.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Next.js 14</span>
@@ -1721,9 +1648,10 @@
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
           <a href="https://aura-market-omega.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
           <a href="https://github.com/MwaleedMADNI/aura-market" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
@@ -1732,24 +1660,16 @@
       <!-- PROJECT 6: NEXUS ANALYTICS HUB -->
       <div class="ok-card ok-work-item ok-reveal" data-category="data ai" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(99,102,241,0.25), #0a0b1c); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">PREDICTIVE ANALYTICS</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                Nexus Analytics Hub
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                nexus-analytics-hub.vercel.app &bull; Live &check;
-              </div>
-            </div>
+          <div class="ok-work-image">
+            <img src="assets/nexus-analytics.png" alt="Nexus Analytics Hub" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
             <span class="ok-work-meta">DATA SCIENCE &middot; PYTHON &middot; FASTAPI</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">10x Vectorized</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>10x Vectorized</span>
           </div>
           <h3 class="ok-work-title" style="color: #ffffff;">Nexus Analytics &mdash; Streaming ML Forecasting</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Interactive predictive analytics workstation built with Python, Pandas, NumPy, and Scikit-learn. Delivers multi-variate time-series forecasting, automated cohort segmentation, and Apache Arrow data streaming.
+            Predictive analytics workstation with time-series forecasting, automated cohort segmentation, and Arrow streaming.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
             <span class="ok-mono-badge">Python 3.12</span>
@@ -1761,49 +1681,43 @@
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
           <a href="https://nexus-analytics-hub.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
           <a href="https://github.com/MwaleedMADNI/nexus-analytics-hub" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
       </div>
 
-      <!-- PROJECT 7: OMNIFLOW AGENT -->
-      <div class="ok-card ok-work-item ok-reveal" data-category="ai" style="display: flex; flex-direction: column; justify-content: space-between;">
+      <!-- PROJECT 7: PULSEGUARD SENTINEL (ADJUSTED ABOVE) -->
+      <div class="ok-card ok-work-item ok-reveal" data-category="data ai" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(236,72,153,0.25), #180914); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">MULTI-AGENT COORDINATION</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                OmniFlow Agent
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                omniflow-ai.vercel.app &bull; Live &check;
-              </div>
-            </div>
+          <div class="ok-work-image">
+            <img src="assets/pulse-sentinel.png" alt="PulseGuard Sentinel Diagnostic Engine" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-            <span class="ok-work-meta">AUTONOMOUS AGENTS &middot; LANGGRAPH</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">Self-Correcting DAG</span>
+            <span class="ok-work-meta">DIAGNOSTIC ENGINE &middot; BIOMETRICS</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>Optimal V1.0.4</span>
           </div>
-          <h3 class="ok-work-title" style="color: #ffffff;">OmniFlow &mdash; Multi-Agent Workflow Engine</h3>
+          <h3 class="ok-work-title" style="color: #ffffff;">PulseGuard Sentinel &mdash; Cardiovascular Diagnostics</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Autonomous multi-agent execution orchestrator designed with LangGraph and Python. Implements dynamic branch delegation, tool-use state machines, automated code generation, and iterative execution verification.
+            Biometric diagnostic engine with multi-parameter clinical risk scoring, sensitivity analysis, and real-time telemetry.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
-            <span class="ok-mono-badge">LangGraph</span>
-            <span class="ok-mono-badge">LangChain</span>
             <span class="ok-mono-badge">Python</span>
-            <span class="ok-mono-badge">WebSockets</span>
-            <span class="ok-mono-badge">State Graph</span>
+            <span class="ok-mono-badge">FastAPI</span>
+            <span class="ok-mono-badge">Scikit-Learn</span>
+            <span class="ok-mono-badge">Biometrics</span>
+            <span class="ok-mono-badge">Vercel Edge</span>
           </div>
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
-          <a href="https://omniflow-ai.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+          <a href="https://pulse-sentinel.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
-          <a href="https://github.com/MwaleedMADNI/omniflow-agent" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+          <a href="https://github.com/MwaleedMADNI/pulse-sentinel" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
@@ -1812,24 +1726,16 @@
       <!-- PROJECT 8: DOCUMIND RAG -->
       <div class="ok-card ok-work-item ok-reveal" data-category="ai data" style="display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(20,184,166,0.25), #071514); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">ENTERPRISE RAG</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                DocuMind RAG
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                documind-rag.vercel.app &bull; Live &check;
-              </div>
-            </div>
+          <div class="ok-work-image">
+            <img src="assets/documind-rag.png" alt="DocuMind Enterprise Vector Assistant" class="ok-work-thumb" loading="eager" onerror="this.style.display='none'">
           </div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
             <span class="ok-work-meta">KNOWLEDGE BASE &middot; CHROMADB</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">Zero Hallucinations</span>
+            <span class="ok-work-badge-pulse" style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;"><span class="ok-radar-dot"></span>Zero Hallucinations</span>
           </div>
           <h3 class="ok-work-title" style="color: #ffffff;">DocuMind &mdash; Enterprise Vector Knowledge Assistant</h3>
           <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Retrieval-augmented generation knowledge engine supporting PDF/document ingestion, semantic chunking, ChromaDB vector indexing, cross-encoder reranking, and exact source attribution citations.
+            Enterprise RAG engine using ChromaDB vector search with semantic chunking and verified source citations.
           </p>
           <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
             <span class="ok-mono-badge">ChromaDB</span>
@@ -1841,49 +1747,10 @@
         </div>
         <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
           <a href="https://documind-rag.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
+            <span>Live Production</span> <span class="btn-arrow">&rarr;</span>
           </a>
           <a href="https://github.com/MwaleedMADNI/documind-rag" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
-            GitHub
-          </a>
-        </div>
-      </div>
-
-      <!-- PROJECT 9: PULSE SENTINEL -->
-      <div class="ok-card ok-work-item ok-reveal" data-category="web data" style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <div class="ok-work-image" style="background: radial-gradient(circle at 50% 30%, rgba(239,68,68,0.25), #180808); min-height: 220px;">
-            <div style="text-align: center; padding: 24px;">
-              <span class="ok-tag" style="margin-bottom: 12px;">INFRASTRUCTURE TELEMETRY</span>
-              <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px;">
-                Pulse Sentinel
-              </div>
-              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #6ee7b7;">
-                pulse-sentinel.vercel.app &bull; Live &check;
-              </div>
-            </div>
-          </div>
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-            <span class="ok-work-meta">DEVOPS MONITORING &middot; WEBSOCKETS</span>
-            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6ee7b7;">99.99% Availability</span>
-          </div>
-          <h3 class="ok-work-title" style="color: #ffffff;">Pulse Sentinel &mdash; Cloud &amp; Microservice Prober</h3>
-          <p style="color: var(--ok-text-secondary); line-height: 1.6; font-size: 14.5px; margin-bottom: 20px;">
-            Lightweight real-time uptime and API latency monitoring service with multi-region edge pinging, WebSocket streaming dashboards, SSL expiration tracking, and automated incident alert webhooks.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
-            <span class="ok-mono-badge">Node.js</span>
-            <span class="ok-mono-badge">WebSockets</span>
-            <span class="ok-mono-badge">Docker</span>
-            <span class="ok-mono-badge">Redis PubSub</span>
-            <span class="ok-mono-badge">Vercel Edge</span>
-          </div>
-        </div>
-        <div style="display: flex; gap: 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08);">
-          <a href="https://pulse-sentinel.vercel.app" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-primary" style="flex: 1; justify-content: center; font-size: 12.5px;">
-            Live Production &rarr;
-          </a>
-          <a href="https://github.com/MwaleedMADNI/pulse-sentinel" target="_blank" rel="noopener noreferrer" class="ok-btn ok-btn-secondary" style="font-size: 12.5px;">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             GitHub
           </a>
         </div>
@@ -2009,7 +1876,7 @@
       <!-- Stat 2 -->
       <div class="ok-reveal">
         <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: clamp(40px, 4.5vw, 60px); font-weight: 800; color: #ffffff; line-height: 1; margin-bottom: 8px;">
-          <span data-count="9">9</span><span>+</span>
+          <span data-count="8">8</span><span>+</span>
         </div>
         <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #6ee7b7; margin-bottom: 6px;">
           PRODUCTION SYSTEMS DEPLOYED
@@ -2089,7 +1956,7 @@
 <!-- ============================================================
      GLOBAL FOOTER
      ============================================================ -->
-<footer style="background: #06040a; border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 72px 0 40px;">
+<footer id="footer" style="background: #06040a; border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 72px 0 40px;">
   <div class="ok-container">
     <div style="display: grid; grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr; gap: 48px; margin-bottom: 56px;">
       <!-- Brand & Narrative -->
@@ -2115,7 +1982,7 @@
           <li><a href="#capabilities" style="color: var(--ok-text-secondary); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Capabilities</a></li>
           <li><a href="#models" style="color: var(--ok-text-secondary); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Engagement Models</a></li>
           
-          <li><a href="#projects" style="color: var(--ok-text-secondary); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Selected Work (9)</a></li>
+          <li><a href="#projects" style="color: var(--ok-text-secondary); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Selected Work (8)</a></li>
           <li><a href="#methodology" style="color: var(--ok-text-secondary); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Methodology</a></li>
           
         </ul>
@@ -2127,9 +1994,9 @@
           LIVE PLATFORMS
         </div>
         <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; font-size: 14px;">
+          <li><a href="https://crm.dccdevelopers.com/login" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">DCC CRM &rarr;</a></li>
           <li><a href="https://schengen-desk.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Schengen Desk &rarr;</a></li>
           <li><a href="https://ai-content-generator-khaki-rho.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">AI Content Studio &rarr;</a></li>
-          <li><a href="https://waleed-editor.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Waleed Editor &rarr;</a></li>
           <li><a href="https://aura-market-omega.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Aura Market &rarr;</a></li>
           <li><a href="https://nexus-analytics-hub.vercel.app" target="_blank" rel="noopener noreferrer" style="color: var(--ok-text-secondary); text-decoration: none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--ok-text-secondary)'">Nexus Analytics &rarr;</a></li>
         </ul>
@@ -2147,7 +2014,7 @@
           </li>
           <li style="display: flex; align-items: center; gap: 10px;">
             <span style="color: #25D366;">WhatsApp:</span>
-            <a href="https://wa.me/923164613277" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: none;">+92 316 4613277</a>
+            <a href="https://wa.me/923014363745" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: none;">+92 316 4613277</a>
           </li>
           <li style="display: flex; align-items: center; gap: 10px;">
             <span style="color: var(--ok-primary-light);">GitHub:</span>
@@ -2331,7 +2198,7 @@
         </p>
 
         <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px;">
-          <a href="https://wa.me/923164613277" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 10px; text-decoration: none; padding: 12px 14px; background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.3); border-radius: var(--ok-radius); color: #fff; font-size: 13px;">
+          <a href="https://wa.me/923014363745" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 10px; text-decoration: none; padding: 12px 14px; background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.3); border-radius: var(--ok-radius); color: #fff; font-size: 13px;">
             <span style="color: #25D366; font-weight: 700;">WhatsApp:</span>
             <span>+92 316 4613277</span>
           </a>
@@ -2379,6 +2246,22 @@
         card.style.display = 'none';
       }
     });
+  }
+
+  // Interactive Specular Spotlight for Project Cards
+  function initProjectCardSpotlights() {
+    document.querySelectorAll('.ok-work-item').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+        card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+      });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initProjectCardSpotlights);
+  } else {
+    initProjectCardSpotlights();
   }
 
   // IFDL Modal Handlers
@@ -2509,16 +2392,15 @@ Focus: High-concurrency web systems, deep learning forensics (IFDL), autonomous 
   &bull; Data & Backend: Python 3.12, Pandas, NumPy, FastAPI, PostgreSQL, Prisma, Redis, Apache Arrow
   &bull; Cloud & SQA: Docker, GitHub Actions CI/CD, Playwright, Jest, PyTest, WebSocket Telemetry`,
 
-    projects: () => `9 Verified Production Systems:
-  1. IFDL - Synthetic Image & Video Forgery Detection Lab (95.4% Precision)
-  2. Schengen Desk (schengen-desk.vercel.app)
-  3. AI Content Generator (ai-content-generator-khaki-rho.vercel.app)
-  4. Waleed Code Editor (waleed-editor.vercel.app)
+    projects: () => `8 Verified Production Systems:
+  1. DCC CRM Enterprise Real Estate Pipeline (crm.dccdevelopers.com/login)
+  2. IFDL - Synthetic Image & Video Forgery Detection Lab (95.4% Precision)
+  3. Schengen Desk (schengen-desk.vercel.app)
+  4. AI Content Generator (ai-content-generator-khaki-rho.vercel.app)
   5. Aura Market (aura-market-omega.vercel.app)
   6. Nexus Analytics Hub (nexus-analytics-hub.vercel.app)
-  7. OmniFlow Autonomous Multi-Agent (omniflow-ai.vercel.app)
-  8. DocuMind Enterprise RAG (documind-rag.vercel.app)
-  9. Pulse Sentinel Microservice Monitor (pulse-sentinel.vercel.app)`,
+  7. PulseGuard Sentinel Cardiovascular Diagnostics (pulse-sentinel.vercel.app)
+  8. DocuMind Enterprise RAG (documind-rag.vercel.app)`,
 
     thesis: () => `Primary Thesis Research:
 Title: IFDL &mdash; Image & Video Forgery Detection Lab
@@ -2705,6 +2587,59 @@ Google Drive: drive.google.com/drive/folders/1O-nvwRo_sJt4pqDhEBGY2NlAjQy8A2kY`,
       observedSections.forEach(sec => observer.observe(sec));
     }
   })();
+
+  // ==========================================================
+  // BUZZINTECH V3 ROLLING HEADLINE WORD ROTATION & WIDGETS
+  // ==========================================================
+  (function initV3Motion() {
+    // 1. Rolling headline word
+    const words = Array.from(document.querySelectorAll('#v3Roll em'));
+    let wi = 0;
+    if (words.length > 1) {
+      setInterval(function () {
+        const c = words[wi];
+        wi = (wi + 1) % words.length;
+        const n = words[wi];
+        c.classList.remove('on');
+        c.classList.add('out');
+        n.classList.remove('out');
+        n.classList.add('on');
+        setTimeout(function () { c.classList.remove('out'); }, 850);
+      }, 2600);
+    }
+
+    // 2. Floating Scope Audit Card Dismiss & Action
+    const closeBtn = document.getElementById('scopeAuditClose');
+    const card = document.getElementById('scopeAuditCard');
+    if (closeBtn && card) {
+      closeBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        card.style.display = 'none';
+      });
+      card.addEventListener('click', function() {
+        if (typeof openPlanner === 'function') {
+          openPlanner('Exclusive Scope Audit');
+        }
+      });
+    }
+  })();
 </script>
+
+<!-- Floating Corner: Exclusive Scope Audit Button + WhatsApp Direct Button -->
+<div class="v3-floating-corner" id="floatingCornerWidgets" aria-label="Scope audit and direct communication">
+  <div class="v3-scope-audit-bubble" id="scopeAuditCard" role="button" tabindex="0" title="Launch Exclusive Scope Audit">
+    <div style="flex: 1;">
+      <div class="v3-scope-badge">EXCLUSIVE SCOPE AUDIT</div>
+      <div class="v3-scope-text">Need a 60-second stack or growth audit?</div>
+    </div>
+    <button class="v3-scope-close" id="scopeAuditClose" aria-label="Dismiss audit prompt">&times;</button>
+  </div>
+  <a class="v3-whatsapp-btn" href="https://wa.me/923014363745" target="_blank" rel="noopener" aria-label="Contact Waleed Madni on WhatsApp" title="Direct WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.07 7.15C8.91 7.15 8.65 7.21 8.43 7.45C8.21 7.69 7.59 8.27 7.59 9.47C7.59 10.67 8.46 11.83 8.58 11.99C8.7 12.15 10.29 14.6 12.72 15.65C13.3 15.9 13.75 16.05 14.1 16.16C14.68 16.35 15.22 16.32 15.64 16.26C16.11 16.19 17.08 15.67 17.28 15.11C17.48 14.55 17.48 14.07 17.42 13.97C17.36 13.87 17.2 13.81 16.96 13.69C16.72 13.57 15.54 12.99 15.32 12.91C15.1 12.83 14.94 12.79 14.78 13.03C14.62 13.27 14.16 13.81 14.02 13.97C13.88 14.13 13.74 14.15 13.5 14.03C13.26 13.91 12.49 13.66 11.57 12.84C10.85 12.2 10.36 11.41 10.22 11.17C10.08 10.93 10.21 10.8 10.33 10.68C10.43 10.58 10.56 10.41 10.68 10.27C10.8 10.13 10.84 10.03 10.92 9.87C11 9.71 10.96 9.57 10.9 9.45C10.84 9.33 10.38 8.2 10.18 7.73C10 7.27 9.8 7.33 9.66 7.32C9.53 7.31 9.37 7.31 9.21 7.31L9.07 7.15Z"/>
+    </svg>
+  </a>
+</div>
+
 </body>
 </html>

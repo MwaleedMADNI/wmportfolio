@@ -1,6 +1,5 @@
-﻿# Muhammad Waleed Madni — Systems & AI Engineer
+# Muhammad Waleed Madni — Systems & AI Engineer
 
-[![Live Site](https://img.shields.io/badge/Live-waleed--editor.vercel.app-7c3aed?style=for-the-badge&logo=vercel)](https://waleed-editor.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-MwaleedMADNI-24292e?style=for-the-badge&logo=github)](https://github.com/MwaleedMADNI)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Waleed_Madni-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/waleedmadni)
 
@@ -92,5 +91,4 @@ WaleedPortfolio/
 - **Lead Engineer**: Muhammad Waleed Madni
 - **Email**: [madnikmadni@gmail.com](mailto:madnikmadni@gmail.com)
 - **WhatsApp**: [+92 316 4613277](https://wa.me/923164613277)
-- **Live Portfolio**: [waleed-editor.vercel.app](https://waleed-editor.vercel.app/)
 - **GitHub**: [@MwaleedMADNI](https://github.com/MwaleedMADNI)
